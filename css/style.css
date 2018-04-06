@@ -37,6 +37,11 @@ max-width:960px;
   text-decoration: none;
 }
 
+.hnav a:visited{
+  text-decoration: none;
+  color: purple;
+}
+
 .hnav a:hover {
   background-color: #222;
   color: rgba(255,4,8,.8);
@@ -44,10 +49,10 @@ max-width:960px;
 
 }
 
-.hnav a:visited{
-  text-decoration: none;
-  color: red;
+.hnav a:active{
+  color:yellow;
 }
+
 
 h2{
   text-align: center;
@@ -59,6 +64,7 @@ h2{
   text-align: left;
   border-collapse: separate;
   border-spacing: 10px;
+  margin-bottom: 10px;
 }
 
 #work{
@@ -75,12 +81,20 @@ h2{
 
 }
 
+#work a:visited h2:visited{
+  color: purple;
+}
+
 #work h2:hover{
   color: rgba(255,0,0,1);
 }
 
 #work  a:hover{
   color: blue;
+}
+
+#work a:active h2:active{
+color: yellow;
 }
 
 #work p{
@@ -104,6 +118,12 @@ h2{
   background-color: #222;
   color: white;
   text-align:center;
+}
+
+body{
+  background-image: url('Mxm2038.github.io/white-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*
 main{
