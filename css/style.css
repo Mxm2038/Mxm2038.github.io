@@ -7,7 +7,7 @@
 text-align: center;
 background-color: #222;
 color: white;
-max-width:960px;
+width:100%;
 
 }
 
@@ -124,6 +124,11 @@ body{
   background-image: url('Mxm2038.github.io/white-background.png');
   background-size: cover;
   background-repeat: no-repeat;
+
+}
+
+main{
+  overflow:scroll;
 }
 /*
 main{
